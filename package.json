@@ -1,0 +1,31 @@
+{
+  "name": "ts-webpack-react-components",
+  "version": "1.0.0",
+  "description": "TypeScript + Webpack + Reactによるコンポーネントライブラリ。おそらく最小構成",
+  "main": "dist/index.js",
+  "scripts": {
+    "transpile": "webpack",
+    "prepublishOnly": "yarn transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kecbigmt/ts-webpack-react-components.git"
+  },
+  "keywords": [],
+  "author": "kecy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kecbigmt/ts-webpack-react-components/issues"
+  },
+  "homepage": "https://github.com/kecbigmt/ts-webpack-react-components#readme",
+  "devDependencies": {
+    "@types/react": "16.9.23",
+    "@types/react-dom": "16.9.5",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.3",
+    "webpack": "4.42.0",
+    "webpack-cli": "3.3.11"
+  }
+}
